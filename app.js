@@ -1,17 +1,13 @@
 // Задание 1
 
 const input = +prompt('Введите количество бананов');
-let banana = 1;
 
-for(i = 1; banana <= input ; banana++){
-    console.log(banana + ' banana');
-    if( banana == 1) break;
-}
-
-for(i = 2; i <= input ; i++){
+for(i = 1; i <= input ; i++)
+    if( i == 1 ) {
+    console.log(i + ' banana');
+} else if (i > 1) {
     console.log(i + ' bananas');
-
-}
+} 
 
 
 // Задание 2
@@ -31,7 +27,7 @@ alert( 'Сумма четных чисел = ' + num  );
 
 // Задание 3
 
-const num1 = +prompt('Введите число');
+const num1 = +prompt('Введите число, которое хотите возвести в степень');
 const degree = +prompt('Введите степень');
 let result = 1;
 
