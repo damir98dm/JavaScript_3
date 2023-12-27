@@ -2,12 +2,12 @@
 
 const input = +prompt('Введите количество бананов');
 
-for(i = 1; i <= input ; i++)
+for(i = 1; i <= input ; i++){
     if( i == 1 ) {
     console.log(i + ' banana');
 } else if (i > 1) {
     console.log(i + ' bananas');
-} 
+} }
 
 
 // Задание 2
